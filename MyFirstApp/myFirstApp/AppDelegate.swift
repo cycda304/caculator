@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MyFirstApp
+//  myFirstApp
 //
-//  Created by Rick LIN on 2018/3/12.
+//  Created by Rick LIN on 2018/3/22.
 //  Copyright © 2018年 Rick LIN. All rights reserved.
 //
 

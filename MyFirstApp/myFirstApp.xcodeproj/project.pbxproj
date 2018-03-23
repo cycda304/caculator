@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE37327F20569C3D00F70061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE37327E20569C3D00F70061 /* AppDelegate.swift */; };
-		FE37328120569C3D00F70061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE37328020569C3D00F70061 /* ViewController.swift */; };
-		FE37328420569C3D00F70061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE37328220569C3D00F70061 /* Main.storyboard */; };
-		FE37328620569C3D00F70061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE37328520569C3D00F70061 /* Assets.xcassets */; };
-		FE37328920569C3D00F70061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE37328720569C3D00F70061 /* LaunchScreen.storyboard */; };
+		FE6FF8852063DAAD00835883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6FF8842063DAAD00835883 /* AppDelegate.swift */; };
+		FE6FF8872063DAAD00835883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6FF8862063DAAD00835883 /* ViewController.swift */; };
+		FE6FF88A2063DAAD00835883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6FF8882063DAAD00835883 /* Main.storyboard */; };
+		FE6FF88C2063DAAD00835883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6FF88B2063DAAD00835883 /* Assets.xcassets */; };
+		FE6FF88F2063DAAD00835883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6FF88D2063DAAD00835883 /* LaunchScreen.storyboard */; };
+		FE6FF8972063E43500835883 /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6FF8962063E43500835883 /* TrueLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE37327B20569C3D00F70061 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE37327E20569C3D00F70061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE37328020569C3D00F70061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE37328320569C3D00F70061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE37328520569C3D00F70061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE37328820569C3D00F70061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FE37328A20569C3D00F70061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6FF8812063DAAD00835883 /* myFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6FF8842063DAAD00835883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE6FF8862063DAAD00835883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE6FF8892063DAAD00835883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE6FF88B2063DAAD00835883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6FF88E2063DAAD00835883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE6FF8902063DAAD00835883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6FF8962063E43500835883 /* TrueLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE37327820569C3D00F70061 /* Frameworks */ = {
+		FE6FF87E2063DAAD00835883 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE37327220569C3D00F70061 = {
+		FE6FF8782063DAAD00835883 = {
 			isa = PBXGroup;
 			children = (
-				FE37327D20569C3D00F70061 /* MyFirstApp */,
-				FE37327C20569C3D00F70061 /* Products */,
+				FE6FF8832063DAAD00835883 /* myFirstApp */,
+				FE6FF8822063DAAD00835883 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FE37327C20569C3D00F70061 /* Products */ = {
+		FE6FF8822063DAAD00835883 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE37327B20569C3D00F70061 /* MyFirstApp.app */,
+				FE6FF8812063DAAD00835883 /* myFirstApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE37327D20569C3D00F70061 /* MyFirstApp */ = {
+		FE6FF8832063DAAD00835883 /* myFirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				FE37327E20569C3D00F70061 /* AppDelegate.swift */,
-				FE37328020569C3D00F70061 /* ViewController.swift */,
-				FE37328220569C3D00F70061 /* Main.storyboard */,
-				FE37328520569C3D00F70061 /* Assets.xcassets */,
-				FE37328720569C3D00F70061 /* LaunchScreen.storyboard */,
-				FE37328A20569C3D00F70061 /* Info.plist */,
+				FE6FF8842063DAAD00835883 /* AppDelegate.swift */,
+				FE6FF8862063DAAD00835883 /* ViewController.swift */,
+				FE6FF8962063E43500835883 /* TrueLoveViewController.swift */,
+				FE6FF8882063DAAD00835883 /* Main.storyboard */,
+				FE6FF88B2063DAAD00835883 /* Assets.xcassets */,
+				FE6FF88D2063DAAD00835883 /* LaunchScreen.storyboard */,
+				FE6FF8902063DAAD00835883 /* Info.plist */,
 			);
-			path = MyFirstApp;
+			path = myFirstApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE37327A20569C3D00F70061 /* MyFirstApp */ = {
+		FE6FF8802063DAAD00835883 /* myFirstApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE37328D20569C3D00F70061 /* Build configuration list for PBXNativeTarget "MyFirstApp" */;
+			buildConfigurationList = FE6FF8932063DAAD00835883 /* Build configuration list for PBXNativeTarget "myFirstApp" */;
 			buildPhases = (
-				FE37327720569C3D00F70061 /* Sources */,
-				FE37327820569C3D00F70061 /* Frameworks */,
-				FE37327920569C3D00F70061 /* Resources */,
+				FE6FF87D2063DAAD00835883 /* Sources */,
+				FE6FF87E2063DAAD00835883 /* Frameworks */,
+				FE6FF87F2063DAAD00835883 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyFirstApp;
-			productName = MyFirstApp;
-			productReference = FE37327B20569C3D00F70061 /* MyFirstApp.app */;
+			name = myFirstApp;
+			productName = myFirstApp;
+			productReference = FE6FF8812063DAAD00835883 /* myFirstApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE37327320569C3D00F70061 /* Project object */ = {
+		FE6FF8792063DAAD00835883 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Rick LIN";
 				TargetAttributes = {
-					FE37327A20569C3D00F70061 = {
+					FE6FF8802063DAAD00835883 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FE37327620569C3D00F70061 /* Build configuration list for PBXProject "MyFirstApp" */;
+			buildConfigurationList = FE6FF87C2063DAAD00835883 /* Build configuration list for PBXProject "myFirstApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = FE37327220569C3D00F70061;
-			productRefGroup = FE37327C20569C3D00F70061 /* Products */;
+			mainGroup = FE6FF8782063DAAD00835883;
+			productRefGroup = FE6FF8822063DAAD00835883 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE37327A20569C3D00F70061 /* MyFirstApp */,
+				FE6FF8802063DAAD00835883 /* myFirstApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE37327920569C3D00F70061 /* Resources */ = {
+		FE6FF87F2063DAAD00835883 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE37328920569C3D00F70061 /* LaunchScreen.storyboard in Resources */,
-				FE37328620569C3D00F70061 /* Assets.xcassets in Resources */,
-				FE37328420569C3D00F70061 /* Main.storyboard in Resources */,
+				FE6FF88F2063DAAD00835883 /* LaunchScreen.storyboard in Resources */,
+				FE6FF88C2063DAAD00835883 /* Assets.xcassets in Resources */,
+				FE6FF88A2063DAAD00835883 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE37327720569C3D00F70061 /* Sources */ = {
+		FE6FF87D2063DAAD00835883 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE37328120569C3D00F70061 /* ViewController.swift in Sources */,
-				FE37327F20569C3D00F70061 /* AppDelegate.swift in Sources */,
+				FE6FF8972063E43500835883 /* TrueLoveViewController.swift in Sources */,
+				FE6FF8872063DAAD00835883 /* ViewController.swift in Sources */,
+				FE6FF8852063DAAD00835883 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE37328220569C3D00F70061 /* Main.storyboard */ = {
+		FE6FF8882063DAAD00835883 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE37328320569C3D00F70061 /* Base */,
+				FE6FF8892063DAAD00835883 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FE37328720569C3D00F70061 /* LaunchScreen.storyboard */ = {
+		FE6FF88D2063DAAD00835883 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE37328820569C3D00F70061 /* Base */,
+				FE6FF88E2063DAAD00835883 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FE37328B20569C3D00F70061 /* Debug */ = {
+		FE6FF8912063DAAD00835883 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		FE37328C20569C3D00F70061 /* Release */ = {
+		FE6FF8922063DAAD00835883 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,60 +274,58 @@
 			};
 			name = Release;
 		};
-		FE37328E20569C3D00F70061 /* Debug */ = {
+		FE6FF8942063DAAD00835883 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH9V5UVG5U;
-				INFOPLIST_FILE = MyFirstApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = myFirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LSR.MyFirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LSR.firstApp.myFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FE37328F20569C3D00F70061 /* Release */ = {
+		FE6FF8952063DAAD00835883 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH9V5UVG5U;
-				INFOPLIST_FILE = MyFirstApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = myFirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LSR.MyFirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LSR.firstApp.myFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE37327620569C3D00F70061 /* Build configuration list for PBXProject "MyFirstApp" */ = {
+		FE6FF87C2063DAAD00835883 /* Build configuration list for PBXProject "myFirstApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE37328B20569C3D00F70061 /* Debug */,
-				FE37328C20569C3D00F70061 /* Release */,
+				FE6FF8912063DAAD00835883 /* Debug */,
+				FE6FF8922063DAAD00835883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE37328D20569C3D00F70061 /* Build configuration list for PBXNativeTarget "MyFirstApp" */ = {
+		FE6FF8932063DAAD00835883 /* Build configuration list for PBXNativeTarget "myFirstApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE37328E20569C3D00F70061 /* Debug */,
-				FE37328F20569C3D00F70061 /* Release */,
+				FE6FF8942063DAAD00835883 /* Debug */,
+				FE6FF8952063DAAD00835883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE37327320569C3D00F70061 /* Project object */;
+	rootObject = FE6FF8792063DAAD00835883 /* Project object */;
 }
