@@ -21,15 +21,50 @@ class TruleViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+   
     @IBOutlet weak var starTextField: UITextField!
-    @IBOutlet weak var urSex: UISegmentedControl!
-    @IBOutlet weak var urHabit: UISegmentedControl!
-    @IBOutlet weak var urBirthday: UIDatePicker!
-    @IBOutlet weak var showYes: UIImageView!
-    @IBOutlet weak var showNo: UIImageView!
+    
+    
+    
+    @IBAction func gender(_ sender: UISegmentedControl) {
+        let genderType = sender.titleForSegment(at: sender.selectedSegmentIndex)
+        starTextField.text = genderType
+
+        if(genderType != "men"){
+            yesImage.isHidden = false
+            noImage.isHidden = true
+        } else{
+            yesImage.isHidden = true
+            noImage.isHidden = false
+        }
+    }
+    
+    @IBOutlet weak var answer: UIImageView!
+    
+    @IBOutlet weak var star: UISegmentedControl!
+    
+    @IBOutlet weak var yesImage: UIImageView!
+    @IBOutlet weak var noImage: UIImageView!
+    
     
     @IBAction func submit(_ sender: UIButton) {
+        let labText = starTextField.text!
+        print(labText)
+        starTextField.text = labText + "OK"
+        
+        let answerImage: String!
+        if(star.titleForSegment(at: star.selectedSegmentIndex)=="men"){
+            yesImage.isHidden = false
+            noImage.isHidden = true
+            answerImage = "answer1"
+        } else{
+            yesImage.isHidden = true
+            noImage.isHidden = false
+            answerImage = "answe2"
+        }
+        answer.image = UIImage(named: answerImage!)
     }
+    
     
     
     /*
