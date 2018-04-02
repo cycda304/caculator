@@ -13,6 +13,8 @@ class toysViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        myImage.backgroundColor = UIColor(red: CGFloat(redColorSliderValue.value), green: CGFloat(greenColorSliderValue.value), blue: CGFloat(blueColorSliderValue.value), alpha: 1)
+        
         colorValueText()
         
         
@@ -32,23 +34,22 @@ class toysViewController: UIViewController {
         let bb = Float(greenLevel![2])
         
         
-        redColor.value = rr
-        greenColor.value = gg
-        blueColor.value = bb
+        redColorSliderValue.value = rr
+        greenColorSliderValue.value = gg
+        blueColorSliderValue.value = bb
         colorValueText()
     }
     
     @IBOutlet weak var myImage: UIImageView!
-    @IBOutlet weak var redColor: UISlider!
-    @IBOutlet weak var greenColor: UISlider!
-    @IBOutlet weak var blueColor: UISlider!
+    @IBOutlet weak var redColorSliderValue: UISlider!
+    @IBOutlet weak var greenColorSliderValue: UISlider!
+    @IBOutlet weak var blueColorSliderValue: UISlider!
     @IBOutlet weak var redVal: UILabel!
     @IBOutlet weak var greenVal: UILabel!
-    
     @IBOutlet weak var blueVal: UILabel!
     @IBAction func resSlider(_ sender: UISlider) {
        
-        myImage.backgroundColor = UIColor(red: CGFloat(redColor.value), green: CGFloat(greenColor.value), blue: CGFloat(blueColor.value), alpha: 1)
+        myImage.backgroundColor = UIColor(red: CGFloat(redColorSliderValue.value), green: CGFloat(greenColorSliderValue.value), blue: CGFloat(blueColorSliderValue.value), alpha: 1)
         
         
         //myImage.backgroundColor = UIColor(r: 100, g: 50, b: 30)
@@ -80,9 +81,9 @@ class toysViewController: UIViewController {
 
     func colorValueText (){
         
-        greenVal.text = String(format: "%.0f",greenColor.value*255)+"/255"
-        redVal.text = String(format: "%.0f",redColor.value*255)+"/255"
-        blueVal.text = String(format: "%.0f",blueColor.value*255)+"/255"
+        greenVal.text = String(format: "%.0f",greenColorSliderValue.value*255)+"/255"
+        redVal.text = String(format: "%.0f",redColorSliderValue.value*255)+"/255"
+        blueVal.text = String(format: "%.0f",blueColorSliderValue.value*255)+"/255"
         
     }
 }

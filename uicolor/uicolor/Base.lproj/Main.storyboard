@@ -143,12 +143,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="blueColor" destination="q0V-fK-l3i" id="PXJ-dF-YY0"/>
+                        <outlet property="blueColorSliderValue" destination="q0V-fK-l3i" id="PXJ-dF-YY0"/>
                         <outlet property="blueVal" destination="a6A-PM-nJY" id="c4f-oS-BgQ"/>
-                        <outlet property="greenColor" destination="zZ8-xP-jFU" id="LjS-YA-av9"/>
+                        <outlet property="greenColorSliderValue" destination="zZ8-xP-jFU" id="LjS-YA-av9"/>
                         <outlet property="greenVal" destination="xuI-m2-J6a" id="lYx-mZ-bB6"/>
                         <outlet property="myImage" destination="DSe-ix-zMD" id="qVv-SN-wni"/>
-                        <outlet property="redColor" destination="wg8-yV-7KI" id="V8f-Ha-PM3"/>
+                        <outlet property="redColorSliderValue" destination="wg8-yV-7KI" id="V8f-Ha-PM3"/>
                         <outlet property="redVal" destination="C4A-K4-140" id="sQh-nU-Mar"/>
                     </connections>
                 </viewController>

@@ -1,4 +1,4 @@
-//
+///Users/ricklin/Desktop/野蠻遊戲 - 瘋狂叢林
 //  CustomTabBarViewController.swift
 //  tabViewControler
 //
@@ -27,7 +27,9 @@ class CustomTabBarViewController: UITabBarController {
         viewControllers = [firstVC, secondVC, thirdVC ]
         
     }
-
+    
+ 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
