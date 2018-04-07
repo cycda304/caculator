@@ -43,7 +43,12 @@ class caculatorViewController: UIViewController {
             }
         }
         set{
-            display.text = String(newValue)
+            if(round(newValue) == newValue){
+                display.text = String(Int(newValue))
+            }
+            else{
+                display.text = String(newValue)
+            }
         }
     }
     
@@ -98,11 +103,15 @@ class caculatorViewController: UIViewController {
                 userIsInTyping = false
                 valueHasTyping = true
             //operating.resetBind()
+            case "%":
+                displayValue = displayValue/100
+                userIsInTyping = false
+                valueHasTyping = true
             case "√":
                 displayValue = sqrt(displayValue)
                 userIsInTyping = false
-                valueHasTyping = false
-                operating.resetBind()
+                valueHasTyping = true
+                //operating.resetBind()
             case "±":
                 displayValue = -displayValue
                 //operating.resetBind()
